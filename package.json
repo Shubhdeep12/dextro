@@ -1,6 +1,6 @@
 {
   "name": "dextro",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A minimal collection of high-performance, flexible array utilities for TypeScript/JavaScript.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -28,7 +28,7 @@
     "dev": "vite build --watch",
     "lint": "eslint src/**/*.ts",
     "prepublishOnly": "pnpm run test:run && pnpm run build",
-    "publish:npm": "npm publish --access public"
+    "publish:npm": "npm publish"
   },
   "keywords": [
     "array",
